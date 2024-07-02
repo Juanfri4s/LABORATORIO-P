@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMUNICATE INTERNET</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="comunicate.css">
+    <link rel="shortcut icon" href="img/1.jpg" type="icon" />
+
+
+</head>
+
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <header>
+            <div class="contenido-header">
+                <div class="logo">
+                    <h1>COMUNICATE INTERNET</h1>
+
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <a href="#inicio" onclick="seleccionar()">
+
+                                <span>Inicio</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#nosotros" onclick="seleccionar()">
+
+                                <span>Nosotros</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sabores" onclick="seleccionar()">
+
+                                <span>Servicios</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#precio" onclick="seleccionar()">
+
+                                <span>Precios</span>
+                            </a>
+                        </li>
+                        
+                        
+                        <li>
+                            <a href="#contacto" onclick="seleccionar()">
+
+                                <span>Contacto</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social">
+                    <a href="">
+                        <i class="fa-solid fa-phone"></i>03865-XXXXXX
+                    </a>
+                    <a target="_blank" href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a target="_blank" href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="nav-responsive" id="bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </header>
+        <!-- Carrusel -->
+        <div class="carrusel">
+            <div class="gallery js-flickity"
+                data-flickity-options='{ "wrapAround":true, "pageDots": false, "autoPlay": true}'>
+                <div class="gallery-cell">
+                    <img src="img/2.png" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/3.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- SECCION SABORES -->
+    <section id="nosotros">
+        <h2>Nosotros</h2><br><br>
+        <h2>COMUNICATE INTERNET</h2><br><br>
+        <P>Te brindamos el mejor servicio de Internet para el hogar, para que vos y tu familia disfruten de un mundo de
+            posibilidades.
+
+            Elegí tu plan de y la velocidad que más se adapte a tus necesidades.</p><br>
+
+        <p>Contar con un servicio de Internet adecuado para tus necesidades es fundamental, si querés cumplir con todas
+            las obligaciones de la vida moderna. Por esta razón, el servicio de internet a contratar es
+            muy importante para conseguir una experiencia agradable y satisfactoria.</p><br>
+
+        <p>Además, te asegurás no tener cortes en el servicio y contar con una conexión estable en todo momento. Sólo
+            Comunicate ofrece la certeza de estar disponibles en todo momento para solucionar tus problemas a fin de
+            brindar un buen servicio.</p><br>
+
+        <p>Por lo tanto, la mejor opción es buscar nuevos planes de internet WiFi con Comunicate según la oferta
+            disponible en tu área de residencia. De esta manera, podrás satisfacer mejor tus necesidades y llegar a
+            estar más conforme. También, recibirás muchos más beneficios y evitarás problemas que podrían haberles
+            surgido con su anterior servicio.</p><br>
+
+    </section>
+
+    <!-- SECCION SABORES -->
+    <section id="sabores">
+        <h2>Servicios</h2>
+        <div class="fila">
+            <div class="item">
+                <div class="icono">
+                    <img src="img/4.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>INTERNET EMPRESARIAL</h3>
+                    <p>Conexión permanente y segura, con ancho de banda comprometido y una velocidad máxima y simétrica
+                        en cada sentido igual a la velocidad contratada.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/5.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>INTERNET INALAMBRICO</h3>
+                    <p>Disponible en ubicaciones estratégicas con una conexión segura y fiable.
+                        El servicio es similar al Internet por cable o red, sólo que se transmite a través de una
+                        antena.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/6.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>FIBRA OPTICA</h3>
+                    <p>Servicio de Internet disponible en velocidades hasta más de 10 Megas. Permite seleccionar el plan
+                        más adecuado según el tipo de negocio y sus diferentes necesidades.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="item">
+                <div class="icono">
+                    <img src="img/7.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>INTERNET SIMETRICO</h3>
+                    <p>Conexión a Internet de alta calidad para negocios mediante un ancho de banda simétrico con igual
+                        velocidad de subida y de bajada. Disponibilidad del 99% anual asegurada.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/8.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>IP TV COMUNICATE</h3>
+                    <p>Plataforma de TV multipantalla que ofrece una nueva experiencia de entretenimiento, diseñada de
+                        forma amigable, intuitiva, simple y fácil de usar.</p>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+
+    </section>
+    <!-- SECCION PRECIOS -->
+    <section id="precio">
+        <h2>Planes y Precios</h2><BR>
+        <div class="container">
+
+            <div class="tabla">
+
+                <div class="titulo">
+
+                    <h2>INTERNET 10 MB</h2>
+                </div>
+
+                <div class="precio">
+                    <h3>$ <span>3.500</span></h3>
+                </div>
+
+                <div class="descripcion">
+                    <ul>
+                        <li><i class="fa fa-check"></i> Instalacion con cargo</li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="tabla">
+                <div class="titulo">
+
+                    <h2>INTERNET 20MB</h2>
+                </div>
+
+                <div class="precio">
+                    <h3>$ <span>4.500</span></h3>
+                </div>
+
+                <div class="descripcion">
+                    <ul>
+                        <li><i class="fa fa-check"></i> Instalacion con cargo</li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="tabla">
+                <div class="titulo">
+
+                    <h2>INTERNET 30 MB</h2>
+                </div>
+
+                <div class="precio">
+                    <h3>$ <span>6.000</span></h3>
+                </div>
+
+                <div class="descripcion">
+                    <ul>
+                        <li><i class="fa fa-check"></i> 15% DE BONIFICACION EN INSTALACION</li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="tabla">
+                <div class="titulo">
+
+                    <h2>INTER 50 MB</h2>
+                </div>
+
+                <div class="precio">
+                    <h3>$ <span>7.500</span></h3>
+                </div>
+
+                <div class="descripcion">
+                    <ul>
+                        <li><i class="fa fa-check"></i> 25% BONIFICACION EN INSTALACION</li>
+                        <li><i class="fa fa-check"></i> 20% BONIFICACION 1° MES</li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="tabla">
+                <div class="titulo">
+
+                    <h2>INTERNET 100 MB</h2>
+                </div>
+
+                <div class="precio">
+                    <h3>$ <span>9.000</span></h3>
+                </div>
+
+                <div class="descripcion">
+                    <ul>
+                        <li><i class="fa fa-check"></i> 20% BONIFICACION EN INSTALACION</li>
+                        <li><i class="fa fa-check"></i> 50% BONIFICACION 1° MES</li>
+
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="tabla">
+                <div class="titulo">
+
+                    <h2>COMUNICATE TV</h2>
+                </div>
+
+                <div class="precio">
+                    <h3>$ <span>10.000</span></h3>
+                </div>
+
+                <div class="descripcion">
+                    <ul>
+                        <li><i class="fa fa-check"></i> 300 CANALES HD</li>
+                        <li><i class="fa fa-check"></i> CANALES REGIONALES</li>
+                        <li><i class="fa fa-check"></i> SERIES</li>
+                        <li><i class="fa fa-check"></i> PELICULAS</li>
+                        <li><i class="fa fa-check"></i> INTERNET 50 MB</li>
+                        <li><i class="fa fa-check"></i> INSTALACION SIN CARGO</li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+   
+    <!-- SECCION CONTACTO Y PIE DE PAGINA -->
+    <section id="contacto">
+        <div class="fila">
+            <div class="col">
+                <h1>COMUNICATE INTERNET</h1>
+
+            </div>
+            <div class="col">
+                <h3>Menú</h3>
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#sabores">Servicios</a>
+                <a href="#precio">Precios</a>
+              
+            </div>
+
+            <div class="col">
+                <h3>Redes Sociales</h3>
+                <div class="media">
+                    <i class="fa-brands fa-facebook"></i> <a target="blank" href="">Facebook</a>
+                </div>
+                <div class="media">
+                    <i class="fa-brands fa-instagram"></i> <a target="blank" href="">Instagram</a>
+                </div>
+            </div>
+            <div class="col">
+                <h3>Contacto</h3>
+                <input type="text" placeholder="Tu correo">
+                <input type="submit" class="enviar">
+            </div>
+        </div><br><br>
+        <div class="copyright">
+            <p>
+                Desarrollado por Ramiro Atencio &copy; 2023 </p>
+
+        </div>
+
+    </section>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=03865-XXXXXX&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
+        class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i></a>
+
+
+</body>
+
+</html>
